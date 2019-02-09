@@ -1,0 +1,182 @@
+html{
+    font-family: "helvetica"
+}
+
+body{
+    margin:0;
+}
+
+
+/* QUOTE 1 */
+#QUOTE-1{
+    background-color: midnightblue;
+}
+#quotebox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url();
+    margin: 0;
+    height: 100%;
+    max-height: 40%;
+    color: white;
+    transition: 2s;
+
+}
+#quotebox.open{
+    max-height: 150%;
+    transition: 2s;
+    
+}
+
+
+
+/* QUOTE 2 */
+#QUOTE-2{
+    background-color: gold;
+}
+#quotebox2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url();
+    margin: 0;
+    height: 100%;
+    max-height: 40%;
+    color: white;
+    transition: 2s;
+
+}
+#quotebox2.open{
+    max-height: 150%;
+    transition: 2s;
+    
+}
+
+
+
+
+.line{
+    background-color: white;
+    width: 1px;
+    min-height: 50px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* quote */ 
+
+.quote-style{
+    padding: 50 50 0 50;
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* TEXT STYLE */ 
+
+h1{
+    font-size: 25px;
+}
+
+
+.author-style h1{
+    font-size: 20px;
+}
+/* Author */ 
+
+.author-style{
+    border: 1px solid white;
+    padding: 10px;
+    max-width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:50px;
+     
+}
+
+/* tap to enlarge button button */
+
+.dots img{
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    padding-bottom: 30px;
+    margin: 10px;
+    bottom: 0;
+  
+}
+
+
+
+
+/* see more 1 */
+#show-more{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    margin: inherit;
+    margin-left: auto;
+    margin-right: auto;
+
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#show-more.open{
+    padding-top: 
+    bottom: 0;
+    transition: 1s;
+    transition-delay: 0.5s;
+    
+}
+#show-more img{
+   
+    height: 50px;
+    width: 50px;
+ 
+}
+
+
+/* see more 2 */
+#show-more2{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    margin: inherit;
+    margin-left: auto;
+    margin-right: auto;
+
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#show-more2.open{
+    padding-top: 
+    bottom: 0;
+    transition: 1s;
+    transition-delay: 0.5s;
+    
+}
+#show-more2 img{
+   
+    height: 50px;
+    width: 50px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
